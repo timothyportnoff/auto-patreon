@@ -1,3 +1,7 @@
+#Ignore the credential file (We do NOT want to leak our keys)
+#In this case, we're just going to ignore anything credentially
+credential*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
